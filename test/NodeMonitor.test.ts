@@ -3,7 +3,7 @@ import { Constants } from '@src/constants';
 import { NodeMonitor } from '@src/services/NodeMonitor';
 import { expect } from 'chai';
 import { stub } from 'sinon';
-import { RoleType } from 'symbol-sdk';
+import { RoleType } from 'twix-sdk';
 
 describe('NodeMonitor', () => {
 	describe('removeStaleNodesAndUpdateLastAvailable when KEEP_STALE_NODES_FOR_HOURS is 3 days', () => {
